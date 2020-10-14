@@ -4,6 +4,8 @@ import com.springboot.hotel.application.springboothotelapplication.data.entity.R
 import com.springboot.hotel.application.springboothotelapplication.data.repository.RoomRepository;
 import com.springboot.hotel.application.springboothotelapplication.data.entity.Guest;
 import com.springboot.hotel.application.springboothotelapplication.data.repository.GuestRepository;
+import com.springboot.hotel.application.springboothotelapplication.data.entity.Reservation;
+import com.springboot.hotel.application.springboothotelapplication.data.repository.ReservationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -42,6 +44,20 @@ public class SpringbootHotelApplication {
 			@GetMapping
 			public Iterable<Guest> getGuests() {
 				return this.guestRepository.findAll();
+
+			}
+
+		}
+
+		@RestController
+		@RequestMapping("/reservations")
+		public class ReservationController {
+			@Autowired
+			private ReservationRepository reservationRepository;
+
+			@GetMapping
+			public Iterable<Reservation> getReservation() {
+				return this.reservationRepository.findAll();
 
 			}
 
