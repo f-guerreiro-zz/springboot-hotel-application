@@ -20,7 +20,9 @@ public class SpringbootHotelApplication {
 		SpringApplication.run(SpringbootHotelApplication.class, args);
 	}
 
+/*
 
+//first test only
 	@RestController
 	@RequestMapping("/rooms")
 	public class RoomController {
@@ -62,5 +64,5 @@ public class SpringbootHotelApplication {
 			}
 
 		}
-
+*/
 	}
