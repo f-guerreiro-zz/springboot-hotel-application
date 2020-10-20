@@ -7,7 +7,7 @@
  - Java
  - HTML
  - CSS
- - Javascript
+ - Javascript (only a few lines)
  - Spring and Spring Boot Framework
  - Git (of course :P)
  - Spring Data (changed for PostgreSQL later)
