@@ -5,6 +5,9 @@
  
  Technologies used in this project:
  - Java
+ - HTML
+ - CSS
+ - Javascript
  - Spring and Spring Boot Framework
  - Git (of course :P)
  - Spring Data (changed for PostgreSQL later)
