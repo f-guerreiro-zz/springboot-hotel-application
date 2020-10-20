@@ -1,7 +1,7 @@
 # springboot-hotel-application
  By Felipe Guerreiro
  
- Hotel application using springboot made for studying
+ Hotel reservations application using spring boot made for studying
  
  Technologies used in this project:
  - Java
