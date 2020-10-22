@@ -13,6 +13,6 @@
  - Spring Data (changed for PostgreSQL later)
  - PostgreSQL
  - JUnit MockMVC Testing (Mockito)
- - Basic web service RESTful
+ - Basic RESTful web service
  
  This was all used following Inversion of Control (IoC) and Dependency Injection (DI) patterns.
